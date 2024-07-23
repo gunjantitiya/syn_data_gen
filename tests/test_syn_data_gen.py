@@ -5,7 +5,7 @@
 import pytest
 
 
-from syn_data_gen import syn_data_gen
+from synthetic_marketing_data import syn_data_gen
 
 
 @pytest.fixture
