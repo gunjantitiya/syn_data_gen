@@ -1,18 +1,13 @@
-============
+
 Synthetic Marketing Data Library
-============
+---------------------------------
 
 
-.. image:: https://img.shields.io/pypi/v/syn_data_gen.svg
-        :target: https://pypi.python.org/pypi/syn_data_gen
+https://pypi.python.org/pypi/syn_data_gen
 
-.. image:: https://img.shields.io/travis/gunjantitiya/syn_data_gen.svg
-        :target: https://travis-ci.com/gunjantitiya/syn_data_gen
+https://travis-ci.com/gunjantitiya/syn_data_gen
 
-.. image:: https://readthedocs.org/projects/syn-data-gen/badge/?version=latest
-        :target: https://syn-data-gen.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
-
+https://syn-data-gen.readthedocs.io/en/latest/?version=latest
 
 
 
@@ -36,18 +31,16 @@ Features
 
 Installation
 --------------
-Installation
 You can install the Synthetic Marketing Data Library using pip:
-.. code-block:: bash
+
     pip install synthetic-marketing-data
+
 Quick Start
 Here's a simple example to get you started:
-.. code-block:: python
-    from synthetic_marketing_data import SyntheticMarketingData
 
+    from synthetic_marketing_data import SyntheticMarketingData
     # Initialize the data generator
     generator = SyntheticMarketingData(seed=42)
-
     # Generate a complete dataset
     customers, campaigns, interactions = generator.generate_dataset(num_customers=10000, num_campaigns=5)
 
@@ -58,7 +51,7 @@ Here's a simple example to get you started:
 
 Advanced Usage
 For more advanced usage, including scenario simulations:
-.. code-block:: python
+
     from synthetic_marketing_data import SyntheticMarketingData
     from synthetic_marketing_data.scenarios.market_scenarios import MarketScenarioSimulator
 
