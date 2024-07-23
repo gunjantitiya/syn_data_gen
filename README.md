@@ -79,7 +79,7 @@ This project is licensed under the MIT License - see the LICENSE <LICENSE>_ file
 
 Contact
 --------
-For any questions or feedback, please open an issue on our GitHub repository <https://github.com/yourusername/synthetic-marketing-data>_.
+For any questions or feedback, please open an issue on our GitHub repository https://github.com/gunjantitiya/syn_data_gen
 
 Credits
 -------
