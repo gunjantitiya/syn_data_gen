@@ -18,7 +18,11 @@ classifiers = [
 ]
 license = {text = "MIT license"}
 dependencies = [
-  "typer"
+  "typer",
+"numpy",
+"pandas",
+"faker",
+"scipy"
 ]
 
 [project.optional-dependencies]
@@ -26,7 +30,9 @@ dev = [
     "coverage",  # testing
     "mypy",  # linting
     "pytest",  # testing
-    "ruff"  # linting
+    "ruff",  # linting
+"black",
+"sphinx"	
 ]
 
 [project.urls]
